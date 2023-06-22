@@ -1,0 +1,29 @@
+.table ion-row:nth-child(even){
+    background-color: #efefef;
+}
+.table ion-row:nth-child(odd){
+    background-color: #fff;
+}
+.table ion-row:first-child{
+    font-weight: bold;
+}
+.table ion-row{
+    padding: 10px 5px;
+}
+.link{
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 5px;
+}
+.link:hover{
+    color: aquamarine;
+}
+ion-checkbox {
+    --size: 32px;
+    --checkbox-background-checked: #158bec;
+  }
+  
+  ion-checkbox::part(container) {
+    border-radius: 6px;
+    border: 2px solid #158bec;
+  }

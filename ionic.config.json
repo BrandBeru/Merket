@@ -1,0 +1,7 @@
+{
+  "name": "merket-ui",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
